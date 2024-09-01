@@ -1,0 +1,8 @@
+@echo off
+set medalpath="%userprofile%\AppData\Local\Medal\app-4.2378.0\Medal.exe"
+
+if exist %medalpath% (
+    start "" %medalpath%
+) else (
+    echo Medal.exe not found at %medalpath%
+)
