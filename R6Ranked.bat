@@ -134,6 +134,6 @@ REM Start Medal without linking to a CMD window using PowerShell
 powershell -NoProfile -ExecutionPolicy Bypass -Command "Start-Process '%userprofile%\AppData\Local\Medal\app-4.2378.0\Medal.exe' -NoNewWindow"
 
 REM Start R6 in Vulkan API mode
-start uplay://launch/635/1
+start uplay://launch/4865/1
 
 exit
